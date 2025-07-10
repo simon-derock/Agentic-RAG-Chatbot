@@ -23,7 +23,7 @@ The chatbot operates on a **Model Context Protocol (MCP)**, an internal message 
 3.  **Retrieval Agent (`RetrievalAgent`):** Manages the `VectorStore`. It receives text chunks, creates vector embeddings, and stores them in ChromaDB. It also handles search queries to find relevant context.
 4.  **LLM Response Agent (`LLMResponseAgent`):** Orchestrates the response generation. It requests relevant context from the Retrieval Agent, constructs a detailed prompt, and queries the Google Gemini LLM to generate a final answer.
 
-![Architecture Diagram](https://i.imgur.com/example.png)  <!-- Placeholder for a diagram -->
+ 
 
 ---
 
@@ -114,7 +114,7 @@ $env:GOOGLE_API_KEY="YOUR_API_KEY_HERE"
 Once the setup is complete, you can start the Streamlit application.
 
 ```bash
-streamlit run ui/streamlit_app.py
+python3.10 -m streamlit run main.py
 ```
 
 The application will automatically open in your web browser, typically at `http://localhost:8501`.
@@ -161,3 +161,6 @@ agentic-rag-chatbot/
 - **`sentence-transformers`**: For generating high-quality semantic embeddings of text.
 - **`google-generativeai`**: The official Python client for the Google Gemini API.
 - **`PyPDF2`, `python-pptx`, `pandas`, `python-docx`**: For parsing various document formats.
+
+
+![Webpage] (https://drive.google.com/file/d/1wv9Z8AspA3DSSArLhSOmHWIjrXniXTrd/view?usp=drive_link)
