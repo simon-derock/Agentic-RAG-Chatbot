@@ -163,4 +163,4 @@ agentic-rag-chatbot/
 - **`PyPDF2`, `python-pptx`, `pandas`, `python-docx`**: For parsing various document formats.
 
 
-![Webpage](https://drive.google.com/file/d/1wv9Z8AspA3DSSArLhSOmHWIjrXniXTrd/view?usp=drive_link)
+![Webpage](https://drive.google.com/uc?id=1wv9Z8AspA3DSSArLhSOmHWIjrXniXTrd)
