@@ -2,6 +2,7 @@
 Live Link: https://huggingface.co/spaces/philip11/Agentic-RAG-Chatbot
 
 
+
 ***Developed by: PHILIP SIMON DEROCK P***
 
 This project implements a sophisticated, multi-agent Retrieval-Augmented Generation (RAG) chatbot. It allows users to upload various document types and ask questions about their content. The chatbot leverages a powerful agentic architecture, where specialized agents collaborate to ingest, retrieve, and generate responses, all orchestrated through a central message bus.
